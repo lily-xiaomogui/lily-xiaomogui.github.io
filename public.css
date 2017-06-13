@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", 微软雅黑, Tahoma, Arial, sans-serif;
+}
+
+a {
+    color: #14191e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f01400;
+}
+
+
+header.load{
+    background-color: rgba(0,0,0,.5);
+    transition: all 1s;
+}
+header.load a{
+    color:#fff;
+}
+
+/*从下上*/
+.section1_top{
+    opacity: 0;
+    top: 260px;
+    transition: all 2s;
+}
+.section3_center,.section4_center,.section5_center{
+    opacity: 0;
+    top: 30%;
+    transition: all 1s;
+}
+
+.color1{
+    top: 100%;
+    opacity: 0;
+    transition: all .8s;
+}
+.color2{
+    top: 100%;
+    opacity: 0;
+    transition: all 1s;
+}
+.color3{
+    top: 100%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.color4{
+    top: 100%;
+    opacity: 0;
+    transition: all 2s;
+}
+.section1_shadow,
+.section2_center,
+.section2_phone,
+.section3_phone{
+    opacity: 0;
+    top: 100%;
+    transition: all 1s;
+}
+.section5_phone{
+    opacity: 0;
+    top: 600px;
+    transform：scale(0.8);
+    transition: all 1s;
+}
+.section1_top.load {
+    top: 160px;
+    opacity: 1;
+}
+.section1_shadow.load{
+    top: 350px;
+    opacity: 1;
+}
+.section2_center.load{
+    top: 190px;
+    opacity: 1;
+}
+.section2_phone.load{
+    top: 270px;
+    opacity: 1;
+}
+.section3_center.load{
+    top: 170px;
+    opacity: 1;
+}
+.section3_phone.load{
+    top: 200px;
+    opacity: 1;
+}
+.section4_center.load{
+    top: 180px;
+    opacity: 1;
+}
+.section5_center.load{
+    top: 240px;
+    opacity: 1;
+}
+.color1.load,
+.color2.load,
+.color3.load,
+.color4.load{
+    top: 0px;
+    opacity: 1;
+}
+.section5_phone.load{
+    top: 520px;
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+section{
+    overflow: hidden;
+}
+
+
+
+
+
+
+/*从上下*/
+.section3_top,.section4_top,.section2_top,.section5_top{
+    bottom: 100%;
+    opacity: 0;
+    transition: all 1s;
+}
+.section1_phone{
+    opacity: 0;
+    bottom: 50%;
+    transition: all 1s;
+}
+.section1_phone.load{
+    bottom: 180px;
+    opacity: 1;
+}
+.section2_top.load,.section4_top.load{
+    bottom: 680px;
+    opacity: 1;
+}
+.section3_top.load{
+    bottom: 660px;
+    opacity: 1;
+}
+.section5_top.load{
+    bottom: 620px;
+    opacity: 1;
+}
+
+.intro{
+   transform: scale(0);
+    transition: all 1s;
+}
+.intro.load{
+    transform: scale(1);
+}
+
+
+aside{
+    opacity: 0;
+    transition: all 1s;
+}
+aside.load{
+    opacity: 1;
+}
+a.load{
+    color:#f00;
+}
+
+
+
